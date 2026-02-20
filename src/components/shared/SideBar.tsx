@@ -13,7 +13,7 @@ import {
 } from "@radix-ui/react-icons";
 
 const menuItems = [
-  { label: "Dashboard", href: "/", icon: DashboardIcon },
+  { label: "Dashboard", href: "/dashboard", icon: DashboardIcon },
   { label: "Clients", href: "/customers", icon: PersonIcon },
   { label: "Vehicles", href: "/vehicles", icon: BackpackIcon },
   { label: "Quotes", href: "/quotes", icon: FileTextIcon },
