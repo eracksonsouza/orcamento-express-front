@@ -55,13 +55,13 @@ const SideBar = () => {
         })}
       </ul>
 
-      <button
-        type="button"
+      <Link
+        href="/quotes"
         className="mt-auto flex w-full items-center justify-center gap-2 rounded-[10px] bg-[#3C3CF6] px-4 py-3 font-semibold text-white transition-opacity hover:opacity-90"
       >
         <PlusIcon className="h-[18px] w-[18px]" />
         Novo Orçamento
-      </button>
+      </Link>
     </nav>
   );
 };
